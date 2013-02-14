@@ -3,15 +3,15 @@ Unisys
 
 CodeIgniter wrapper class library for scraping Unisys data
 
-= Instruction
+== Instruction
 
-1. Put all the file in `libraries` directory to `application/libraries` directory in your CodeIgniter project
+1. Put all the files in `libraries` directory to `application/libraries` directory in your CodeIgniter project
 2. (Auto)load the 'unisys' library to get started
 
-= Sample code
+== Sample code
 
 ```php
-$this->load->library('urnisys');
+$this->load->library('unisys');
 $auth = $this->unisys->auth('08523999', 'passwordku');
 if($auth !== false)
 {
